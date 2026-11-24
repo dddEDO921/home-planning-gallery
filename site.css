@@ -27,3 +27,5 @@ dialog button{padding:9px 13px;min-height:44px;border:1px solid #77736a;border-r
 dialog button:focus-visible{outline:2px solid white;outline-offset:2px}
 @media(max-width:850px){.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.cards{grid-template-columns:1fr;gap:12px}.card--feature{grid-column:auto}nav a{padding-inline:9px}}
+.intro a{color:var(--accent);text-underline-offset:3px}
+@media(min-width:561px){.cards--comparison{grid-template-columns:repeat(2,minmax(0,1fr))}}
