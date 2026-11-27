@@ -34,8 +34,3 @@ dialog button:focus-visible{outline:2px solid white;outline-offset:2px}
 .intro .picker-links a:first-child{display:inline-block;padding:10px 18px;background:var(--accent);color:white;border-radius:6px;text-decoration:none}
 .intro .picker-links a:first-child:hover{text-decoration:underline}
 @media(max-width:560px){.variation-list .card{display:flex;align-items:center}.variation-list .card img{width:37%;height:auto}.variation-list .card span{padding:10px;font-size:.95rem}.variation-list .cards{gap:8px}}
-.lighting-switch{display:flex;align-items:center;gap:4px;flex-wrap:wrap;margin:1rem 0 .5rem}
-.lighting-switch[hidden]{display:none}
-.lighting-switch span{margin-right:.5rem;font-weight:600}
-.lighting-switch button{font:inherit;color:var(--accent);background:var(--paper);border:1px solid var(--accent);border-radius:6px;min-height:44px;padding:6px 14px;cursor:pointer}
-.lighting-switch button[aria-pressed="true"]{background:var(--accent);color:white;font-weight:600}
