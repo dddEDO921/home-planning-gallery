@@ -6,15 +6,16 @@
   <meta name="description" content="2階LDKの写真風イメージを、リビング・ダイニング、キッチン、階段の視点から見るギャラリー。">
   <meta name="theme-color" content="#f6f3ed">
   <title>2階LDK フォトギャラリー</title>
-  <link rel="stylesheet" href="site.css?v=variations1">
+  <link rel="stylesheet" href="site.css?v=lighting1">
   <script src="gallery.js" defer></script>
+  <script src="lighting.js" defer></script>
 </head>
 <body>
   <header class="intro">
     <h1>2階LDK<br>フォトギャラリー</h1>
     <p>空間の見え方を検討するための写真風イメージ。</p>
     <p class="picker-links"><a href="variations.html">写真でバリエーションを選ぶ</a></p>
-  </header>
+  <div class="lighting-switch" role="group" aria-label="照明" data-lighting hidden><span>照明</span><button type="button" value="day" aria-pressed="false">昼の自然光</button><button type="button" value="night" aria-pressed="true">夜の温白色</button></div></header>
   <nav aria-label="ギャラリーの分類">
     <a href="#evening">LDKの昼と夜</a>
     <a href="#living">リビング・ダイニング</a>
